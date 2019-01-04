@@ -14,6 +14,7 @@ app.listen(app.get('port'), () => {
    console.log(`Listening on port ${app.get('port')}`);
 });
 
+
 app.get('/', (req, res) => {
    res.render('index');   
 });
