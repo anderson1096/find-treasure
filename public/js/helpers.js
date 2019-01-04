@@ -11,7 +11,7 @@ let getDistance = (e, target) => {
 
 let getDistanceHint = (distance) => {
    if (distance < 30){
-      return "Hirbiendo"
+      return "Hirviendo"
    }else if(distance < 40){
       return "Muy Caliente"
    }else if(distance < 60){
