@@ -1,0 +1,24 @@
+{
+  "name": "find-treasure",
+  "version": "1.0.0",
+  "description": "A simple javascript game ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./js/game.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "javascript",
+    "find-treasure"
+  ],
+  "author": "Anderson Mosquera",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "2.6.1",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
+}
